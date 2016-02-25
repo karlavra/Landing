@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 1em;
+	font-family: "Open Sans"
+}
+.container-fluid{
+    padding: 0% 7%;
+}
+header{
+	padding: 10px 0;
+}
+header img{
+	display: inline-block;
+    width: 200px;
+}
+header nav{
+	display: inline-block;
+    position: absolute;
+    right: 11%;
+    margin-top: 15px;
+}
+header nav a {
+	margin: 10px;
+    text-decoration: none;
+    color: gray;
+}
+.fondogris{
+	background-color: #808080;
+	color:white;
+	padding:5% 0;
+	width: 100%;
+}
+.fondogris h1{
+	font-size: 3.3em;
+	margin-bottom: 7%;
+}
+.cajagris{
+	background-color: #9A9A9A;
+	border-radius: 5px;
+	padding: 8%;
+}
+.cajagris input{
+	width: 100%;
+	height: 35px;
+	display:block;
+	margin-bottom: 5px;
+}
+.cajagris h3{
+	font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.enviar{
+	background-color: #3EB0F7;
+    color: white;
+}
+footer{
+	padding: 2% 0;
+    font-size: 1.1em;
+}
+footer a{
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 780px) {
+	.caja {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.container-fluid{
+		padding: 0%;
+	}
